@@ -1,11 +1,11 @@
 
 import './App.css';
-import Activites from './Components/Activities/Activites';
+import Activity from './Components/Activity/Activity';
 
 function App() {
   return (
     <div>
-      <Activites></Activites>
+      <Activity></Activity>
     </div>
   );
 }
