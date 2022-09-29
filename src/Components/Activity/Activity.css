@@ -1,7 +1,5 @@
 .header{
     padding-left: 100px;
-    padding-top: 100px;
-   
 }
 .header h2{
     color: orange;
@@ -9,5 +7,12 @@
 
 .full-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1fr ;
+    
+}
+.activites-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 90px;
+    
 }

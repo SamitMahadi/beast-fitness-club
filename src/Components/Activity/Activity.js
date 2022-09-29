@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card'
-
 import './Activity.css'
 
 const Activity = () => {
@@ -20,10 +19,12 @@ const Activity = () => {
 
       <div className='activites-container'>
           {
-            cards.map(card=><Card key={card.id}></Card>)
+            cards.map(card=><Card key={card.id}
+            card={card}></Card>)
           }
 
         </div>
+        
         <div className='progress-container'>
            <h2>this is progress</h2>
 
