@@ -1,5 +1,6 @@
 .header{
     padding-left: 100px;
+    width: 50%;
 }
 .header h2{
     color: orange;
@@ -14,5 +15,15 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-left: 90px;
+    row-gap: 30px;
     
+    
+}
+
+
+.progress-container{
+    background-color: aliceblue;
+    padding-left: 20px;
+    
+
 }

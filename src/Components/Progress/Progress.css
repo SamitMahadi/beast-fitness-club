@@ -1,0 +1,58 @@
+.info{
+    width: 200px;
+    display: flex;
+    padding-left: 25px;
+    background-color: white;
+    border-radius: 20px;
+
+    
+}
+.profile{
+    display: flex;
+    padding-bottom: 20px;
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.info-info{
+    padding-right: 20px;
+}
+.break-time{
+    display: flex;
+    padding-right: 20px;
+}
+.break-time h4{
+    
+    background-color: white;
+    border-radius:200px;
+    padding: 5px;
+
+}
+.break-time h4:hover{
+    background-color: orange;
+}
+.exercise-detail{
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+.exercise{
+    width: 95%;
+}
+.complete{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(241, 189, 94);
+    color: white;
+    font-weight: 500;
+}
+.complete:hover{
+    background-color: orange;
+}
