@@ -4,7 +4,7 @@
         "img":"https://www.linkpicture.com/q/pexels-jim-de-ramos-1263426.jpg",
         "name":"Volley Ball",
         "age" :"15-35",
-        "time" :"40"
+        "time" :40
         
         
     },
@@ -13,7 +13,7 @@
         "img":"https://www.linkpicture.com/q/pexels-jim-de-ramos-1263348.jpg",
         "name":"Swimming",
         "age" :"20-35",
-        "time" :"30"
+        "time" :30
         
         
     },
@@ -22,7 +22,7 @@
         "img":"https://www.linkpicture.com/q/pexels-pixabay-34514_1.jpg",
         "name":"Marathon",
         "age" :"10-25",
-        "time" :"45"
+        "time" :45
         
         
     },
@@ -31,7 +31,7 @@
         "img":"https://www.linkpicture.com/q/pexels-oluremi-adebayo-2908175_1.jpg",
         "name":"Meditation",
         "age" :"20-50",
-        "time" :"25"
+        "time" :25
         
         
     },
@@ -40,7 +40,7 @@
         "img":"https://www.linkpicture.com/q/pexels-li-sun-2294361.jpg",
         "name":"Plank",
         "age" :"15-25",
-        "time" :"10"
+        "time" :10
         
         
     },
@@ -49,7 +49,7 @@
         "img":"https://www.linkpicture.com/q/pexels-cottonbro-4761658.jpg",
         "name":"Boxing",
         "age" :"15-35",
-        "time" :"20"
+        "time" :20
         
         
     }

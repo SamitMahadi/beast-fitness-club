@@ -15,7 +15,7 @@ const Activity = () => {
     },[])
 
     const handleAddToList=(card)=>{
-      console.log(card);
+      // console.log(card);
       const newcard =[...singlecard,card]
       setcard(newcard)
     }
@@ -40,8 +40,7 @@ const Activity = () => {
         </div>
 
         <div className='progress-container'>
-          
-           <Progress></Progress>
+           <Progress singlecard={singlecard} ></Progress>
 
         </div>
    </div>

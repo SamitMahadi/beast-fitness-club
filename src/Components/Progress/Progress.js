@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from '../../../src/profile-photo/profile.png'
 import './Progress.css'
-const Progress = () => {
-    
+import{ToastContainer, toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+const Progress = (props) => {
+    const diffToast=()=>{
+        toast("Activity Completed!")
+    }
+    const {singlecard}=props;
+    let total=0;
+    for(const card of singlecard){
+        total=parseFloat((total + card.time));
+    }
+    const[breakTime,setBreakTime]=useState([])
     return (
 
 <div className='progress-info'>
@@ -31,26 +41,30 @@ const Progress = () => {
     Add A Break
 </h2>
 <div className='break-time'>
-    <h4>10m</h4>
-    <h4>20m</h4>
-    <h4>30m</h4>
-    <h4>40m</h4>
-    <h4>50m</h4>
+    <h4 onClick={e=>setBreakTime(e.target.innerText)}>10m</h4>
+    <h4 onClick={e=>setBreakTime(e.target.innerText)}>20m</h4>
+    <h4 onClick={e=>setBreakTime(e.target.innerText)}>30m</h4>
+    <h4 onClick={e=>setBreakTime(e.target.innerText)}>40m</h4>
+    <h4 onClick={e=>setBreakTime(e.target.innerText)}>50m</h4>
 
 </div>
 <h2>Exercise Details</h2>
 <div className='exercise'>
     <h3 className='exercise-detail'>
-        Exercise time :
+        Exercise time :{total}min
     </h3>
     <h3 className='exercise-detail'>
-        Break time :
+        Break time :{breakTime}
     </h3>
     
 </div>
-<button className='complete'>Activity Completed</button>
+<button onClick={diffToast} className='complete'>Activity Completed</button>
+<ToastContainer
+position="top-center"
 
-</div>    
+/>  
+</div> 
+ 
 
          
     
