@@ -11,6 +11,11 @@ const Activity = () => {
         .then(res=>res.json())
         .then(data=>setCards(data))
     },[])
+
+    const handleAddToList=(card)=>{
+      console.log(card);
+    }
+
     return (
         <div>
         <div className='header'>
@@ -21,8 +26,11 @@ const Activity = () => {
 
       <div className='activites-container'>
           {
-            cards.map(card=><Card key={card.id}
-            card={card}></Card>)
+            cards.map(card=><Card 
+              key={card.id}
+              card={card}
+              handleAddToList={handleAddToList}
+              ></Card>)
           }
 
         </div>
