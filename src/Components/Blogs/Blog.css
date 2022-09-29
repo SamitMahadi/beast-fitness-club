@@ -1,0 +1,13 @@
+.Blog{
+   color: orange;
+   padding-left: 500px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-left: 50px;
+}
+.blog-paragraph{
+    
+}

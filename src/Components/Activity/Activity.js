@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card'
 import Progress from '../Progress/Progress';
+import Blog from '../Blogs/Blog';
 
 import './Activity.css'
 
@@ -42,6 +43,10 @@ const Activity = () => {
         <div className='progress-container'>
            <Progress singlecard={singlecard} ></Progress>
 
+        </div>
+
+        <div>
+          <Blog></Blog>
         </div>
    </div>
 

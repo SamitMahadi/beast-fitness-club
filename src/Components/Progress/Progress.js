@@ -13,6 +13,7 @@ const Progress = (props) => {
         total=parseFloat((total + card.time));
     }
     const[breakTime,setBreakTime]=useState([])
+   
     return (
 
 <div className='progress-info'>
