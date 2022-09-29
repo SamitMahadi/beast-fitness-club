@@ -30,3 +30,22 @@
     
 
 }
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+    }
+    .activites-container{
+        width: 150px;
+        display:list-item;
+    
+    }
+    .progress-container{
+        width: 300px;
+        display:list-item;
+        
+    }
+    .full-container{
+        display:list-item;
+        padding-right: 20px;
+    }
+}
