@@ -5,7 +5,9 @@ import Progress from '../Progress/Progress';
 import './Activity.css'
 
 const Activity = () => {
-    const [cards,setCards] = useState([])
+    const [cards,setCards] = useState([]);
+    const [singlecard,setcard]=useState([])
+
     useEffect(()=>{
         fetch('Fitness.json')
         .then(res=>res.json())
@@ -14,6 +16,8 @@ const Activity = () => {
 
     const handleAddToList=(card)=>{
       console.log(card);
+      const newcard =[...singlecard,card]
+      setcard(newcard)
     }
 
     return (
@@ -36,6 +40,7 @@ const Activity = () => {
         </div>
 
         <div className='progress-container'>
+          
            <Progress></Progress>
 
         </div>

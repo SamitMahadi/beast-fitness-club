@@ -2,12 +2,13 @@ import React from 'react';
 import image from '../../../src/profile-photo/profile.png'
 import './Progress.css'
 const Progress = () => {
+    
     return (
 
-<div>
+<div className='progress-info'>
     <div className='profile'>
     <img className='profile-img' src={image} alt="" />
-    <h3>Neyamar jr <br />Brasilia,Brazil</h3>
+    <h3>Neymar. jr <br />Brasilia,Brazil</h3>
    </div>
    <div className='info'>
      <div className='info-info'>
